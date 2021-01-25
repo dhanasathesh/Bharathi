@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bharathi" max_length="40" name="x_562506_bharathi_bharathi" sizeclass="6" type="collection">
+        <element label="Contact Number" max_length="40" name="contact_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="female"/>
+                <element inactive_on_update="false" label="Male" value="male"/>
+            </choice>
+        </element>
+        <element label="New Field1" max_length="40" name="new_field1" type="integer"/>
+        <element label="New Field2" max_length="40" name="new_field2" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="School Grade" max_length="40" name="school_grade" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="50" name="student_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Term1 Written" mandatory="true" max_length="15" name="u_decimal_2" type="decimal"/>
+        <element label="Term1 Oral" mandatory="true" max_length="15" name="u_decimal_3" type="decimal"/>
+        <element label="Term1 Total" mandatory="true" max_length="15" name="u_decimal_4" type="decimal"/>
+        <element label="Term2 Written" mandatory="true" max_length="15" name="u_decimal_6" type="decimal"/>
+        <element label="Term2 Oral" mandatory="true" max_length="15" name="u_decimal_7" type="decimal"/>
+        <element label="Term2 Total" mandatory="true" max_length="15" name="u_decimal_8" type="decimal"/>
+        <element label="Roll Number" mandatory="true" max_length="40" name="u_integer_10" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Term1 Grade" mandatory="true" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Term2 Grade" mandatory="true" max_length="40" name="u_string_9" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>student_name</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-11 16:04:42</sys_created_on>
+        <sys_data_policy display_value="Sets the Student Name field to mandatory">69641f832f212010414b2b5df699b6b6</sys_data_policy>
+        <sys_id>2d641f832f212010414b2b5df699b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>student_name</sys_name>
+        <sys_package display_value="Bharathi" source="x_562506_bharathi">00831f032f212010414b2b5df699b648</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bharathi">00831f032f212010414b2b5df699b648</sys_scope>
+        <sys_update_name>sys_data_policy_rule_2d641f832f212010414b2b5df699b6b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-11 16:04:42</sys_updated_on>
+        <table>x_562506_bharathi_bharathi</table>
+    </sys_data_policy_rule>
+</record_update>
